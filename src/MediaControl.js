@@ -1,3 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
+import './MediaControl.css';
 
-export default () => <div>Media Control goes here.</div>;
+class MediaControl extends Component{
+
+    render(){
+        return <div className="media-control">MediaControl here!!!!</div>
+    }
+}
+
+export default MediaControl;
