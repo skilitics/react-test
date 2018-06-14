@@ -1,4 +1,6 @@
-# React Test
+# Test
+
+## MediaControl
 
 To start:
 
@@ -43,3 +45,7 @@ onToggleFullScreen: () => {}
 ```
 
 You do not need to implement the callbacks, i.e.: You do _not_ need to implement full-screen mode.
+
+# MyClass
+
+Separate from the `MediaControl`, `MyClass` is a contrived class that does nothing in particular. Have a look at `./src/MyClass.js` and try to identify any potential issues. Edit and comment in the file any changes or recommendations. Try to explain the reason for your suggested change with comments.
