@@ -1,15 +1,12 @@
 .App {
+  height: 100vh;
   text-align: center;
+  background: #e0e0e0;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
 
 .App-header {
   background-color: #222;
-  height: 150px;
   padding: 20px;
   color: white;
 }
@@ -20,6 +17,30 @@
 
 .App-intro {
   font-size: large;
+}
+
+.App-previewCaption {
+  font-style: italic;;
+}
+
+.App-iconList {
+  list-style: none;
+
+  color: black;
+
+  display: flex;
+  justify-content: center;
+}
+
+.App-iconItem {
+  margin-right: 10px;
+}
+
+.App-artboard {
+  padding: 40px;
+  margin: 40px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 
 @keyframes App-logo-spin {
