@@ -22,7 +22,17 @@ class App extends Component {
         </figure>
 
         <div className="App-artboard">
-          <MediaControl />
+          <MediaControl
+            playing={false}
+            buffered={0}
+            elapsed={0}
+            duration={120000}
+
+            onPlay={() => console.log('play pressed')}
+            onPause={() => console.log('pause pressed')}
+            onToggleClosedCaptions={() => console.log('toggle captions')}
+            onToggleFullscreen={() => console.log('toggle full screen')}
+          />
         </div>
 
         <ul className="App-iconList">
