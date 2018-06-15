@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import './Button.css';
+import ClosedCaptions from './../../icons/ClosedCaptions';
 
 class ClosedCaptionsButton extends Component{
 
     render(){
-        return <div>ClosedCaptionsButton</div>
+        return <div className='button-outer'>
+            <ClosedCaptions className='button' />
+            </div>
     }
 }
 
