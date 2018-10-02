@@ -21,13 +21,9 @@ class MyClass {
   }
 
   refreshData(data) {
-    this.items = [];
-    data.forEach(item => {
-      items.push({
-        id: item.id,
-        name: item.name
-      });
-    });
+    this.items = data.map(item => (
+     {id: item.id, name: item.name}
+    ));
   }
 
   startTimer() {

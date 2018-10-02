@@ -1,0 +1,8 @@
+.media-control{
+    background-color: #111111;
+    height: 54px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+}
